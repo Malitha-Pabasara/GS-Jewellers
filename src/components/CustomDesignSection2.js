@@ -1,10 +1,19 @@
-export default function CustomDesignSection() {
+export default function CustomDesignSection2() {
   return (
-    <section className="texture-facet bg-white py-20">
+    <section className="texture-facet bg-[#f3f1ef] py-20">
       
-      <div className="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-[1fr_1.4fr] gap-12 items-center px-6">
+      <div className="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-[1.4fr_1fr] gap-12 items-center px-6">
         
-        {/* LEFT SIDE - TEXT */}
+        {/* LEFT SIDE - IMAGE */}
+       <div className="w-full h-[350px] md:h-[450px] overflow-hidden rounded-sm shadow-lg">
+          <img
+            src="/images/crafting.webp"
+            alt="Jewellery Crafting"
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+
+        {/* RIGHT SIDE - TEXT */}
         <div className="text-center md:text-left space-y-6">
           
           <h2 className="font-serif-heading text-4xl leading-tight text-[#013220]">
@@ -26,15 +35,6 @@ export default function CustomDesignSection() {
 
           </button>
 
-        </div>
-
-        {/* RIGHT SIDE - IMAGE */}
-        <div className="w-full h-[350px] md:h-[450px] overflow-hidden rounded-sm shadow-lg">
-          <img
-            src="/images/crafting.webp"
-            alt="Jewellery Crafting"
-            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-          />
         </div>
 
       </div>

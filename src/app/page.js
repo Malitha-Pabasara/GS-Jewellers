@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import OurPromiseSection from "@/components/OurPromiseSection";
 import ShippingBar from "@/components/ShippingBar";
 import CustomDesignSection from "@/components/CustomDesignSection";
-
+import CustomDesignSection2 from "@/components/CustomDesignSection2";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -14,9 +14,11 @@ export default function Home() {
       
       <main>
         <HeroSection />
+         <CategoryCarousel />
         <CustomDesignSection/>
+        <CustomDesignSection2/>
         <OurPromiseSection />
-        <CategoryCarousel />
+       
       </main>
       <Footer />
     </div>
