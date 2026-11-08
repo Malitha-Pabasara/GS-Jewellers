@@ -1,10 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import {
-  ChevronLeftIcon,
-  ChevronRightIcon,
-} from "@heroicons/react/24/outline";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { useEffect, useRef } from "react";
 
 const CATEGORIES = [
@@ -13,7 +10,11 @@ const CATEGORIES = [
   { label: "Necklace", href: "/necklace", src: "/images/necklacecc.webp" },
   { label: "Earrings", href: "/earrings", src: "/images/earringscc.webp" },
   { label: "Cufflinks", href: "/cufflinks", src: "/images/cufflinkscc.webp" },
-  { label: "Bangles & Bracelets", href: "/bracelets", src: "/images/bracelets.webp" },
+  {
+    label: "Bangles & Bracelets",
+    href: "/bracelets",
+    src: "/images/bracelets.webp",
+  },
   { label: "For Kids", href: "/kids", src: "/images/kidscc.webp" },
   { label: "Buy Gems", href: "/gems", src: "/images/gemscc.webp" },
 ];
@@ -73,14 +74,13 @@ export default function CategoryCarousel() {
   }, []);
 
   return (
-    <section className="texture-grey border-y border-[#E6DCD4]/50">
+    <section className="bg-[#faf5ee] border-y border-[#E6DCD4]/50">
       <div className="relative mx-auto max-w-[1440px] px-4 py-14 lg:px-8">
-
         {/* LEFT */}
         <div className="absolute left-2 inset-y-0 flex items-center z-10 lg:left-4">
           <button
             onClick={() => scrollByAmount(-1)}
-            className="rounded-full border border-[#013220] bg-white/90 p-2 text-[#013220] shadow hover:bg-white"
+            className="rounded-full border border-[#013220] bg-white/90 p-2 text-[#3B3029] shadow hover:bg-white"
           >
             <ChevronLeftIcon className="h-5 w-5" />
           </button>
@@ -90,7 +90,7 @@ export default function CategoryCarousel() {
         <div className="absolute right-2 inset-y-0 flex items-center z-10 lg:right-4">
           <button
             onClick={() => scrollByAmount(1)}
-            className="rounded-full border border-[#013220] bg-white/90 p-2 text-[#013220] shadow hover:bg-white"
+            className="rounded-full border border-[#3B3029] bg-white/90 p-2 text-[#3B3029] shadow hover:bg-white"
           >
             <ChevronRightIcon className="h-5 w-5" />
           </button>
@@ -107,7 +107,7 @@ export default function CategoryCarousel() {
               href={cat.href}
               className="group flex w-[150px] shrink-0 flex-col items-center gap-3 sm:w-[168px]"
             >
-              <div className="relative h-[150px] w-[150px] overflow-hidden rounded-full border-2 border-[#013220] bg-white shadow-sm sm:h-[168px] sm:w-[168px]">
+              <div className="relative h-[150px] w-[150px] overflow-hidden rounded-full border-2 border-[#3B3029] bg-white shadow-sm sm:h-[168px] sm:w-[168px]">
                 <Image
                   src={cat.src}
                   alt={cat.label}
@@ -116,7 +116,7 @@ export default function CategoryCarousel() {
                 />
               </div>
 
-              <span className="text-center text-[13px] font-medium text-[#013220]">
+              <span className="text-center text-[13px] font-medium text-[#3B3029]">
                 {cat.label}
               </span>
             </a>
