@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export default function Logo({ className = "", variant = "dark" }) {
-  const color = variant === "light" ? "text-[#F5F0E8]" : "text-[#CDBBAA]";
-  const sub = variant === "light" ? "text-[#E6DCD4]" : "text-[#CDBBAA]";
+  const color = variant === "light" ? "text-[#CDBBAA]" : "text-[#CDBBAA]";
+  const sub = variant === "light" ? "text-[#CDBBAA]" : "text-[#CDBBAA]";
 
   return (
     <Link

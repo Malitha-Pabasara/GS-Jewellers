@@ -18,7 +18,12 @@ function SocialIcon({ children, label }) {
 
 function FacebookIcon() {
   return (
-    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+    <svg
+      className="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M22 12a10 10 0 10-11.5 9.95v-7.05H7V12h3.5V9.5c0-3.45 2-5.35 5.1-5.35 1.48 0 3 .26 3 .26v3.3h-1.7c-1.67 0-2.2 1.04-2.2 2.1V12h3.75l-.6 3.9h-3.15V22A10 10 0 0022 12z" />
     </svg>
   );
@@ -26,7 +31,12 @@ function FacebookIcon() {
 
 function InstagramIcon() {
   return (
-    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+    <svg
+      className="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H7zm5 3.5a5.5 5.5 0 110 11 5.5 5.5 0 010-11zm0 2a3.5 3.5 0 100 7 3.5 3.5 0 000-7zM18 6.5a1 1 0 110 2 1 1 0 010-2z" />
     </svg>
   );
@@ -34,7 +44,12 @@ function InstagramIcon() {
 
 function YouTubeIcon() {
   return (
-    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+    <svg
+      className="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M21.6 7.2a2.4 2.4 0 00-1.7-1.7C18.1 5 12 5 12 5s-6.1 0-7.9.5A2.4 2.4 0 002.4 7.2 25 25 0 002 12a25 25 0 00.4 4.8 2.4 2.4 0 001.7 1.7c1.8.5 7.9.5 7.9.5s6.1 0 7.9-.5a2.4 2.4 0 001.7-1.7 25 25 0 00.4-4.8 25 25 0 00-.4-4.8zM10 15V9l5 3-5 3z" />
     </svg>
   );
@@ -42,7 +57,12 @@ function YouTubeIcon() {
 
 function LinkedInIcon() {
   return (
-    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+    <svg
+      className="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M6.5 8.5h-4V21h4V8.5zm-2-5A2 2 0 104.5 7 2 2 0 004.5 3.5zM21.5 21h-4v-6.2c0-1.5-.5-2.5-1.8-2.5-1 0-1.6.7-1.9 1.3-.1.2-.1.6-.1 1V21h-4V8.5h4v1.7c.6-1 1.7-1.7 3.2-1.7 2.3 0 4 1.5 4 4.8V21z" />
     </svg>
   );
@@ -50,7 +70,12 @@ function LinkedInIcon() {
 
 function TikTokIcon() {
   return (
-    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+    <svg
+      className="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M16.6 5.8c1 .9 2.3 1.4 3.7 1.4v3.1a7.7 7.7 0 01-3.7-1v5.4a6.5 6.5 0 11-6.5-6.5c.2 0 .4 0 .6.1v3.4a3.2 3.2 0 103.2 3.2V5.8h2.7z" />
     </svg>
   );
@@ -58,7 +83,12 @@ function TikTokIcon() {
 
 function TwitterIcon() {
   return (
-    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+    <svg
+      className="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M18.2 3H21l-6.5 7.4L22 21h-6.3l-4-5.2L6.4 21H3.8l7-8L2 3h6.5l3.6 4.8L18.2 3z" />
     </svg>
   );
@@ -66,7 +96,12 @@ function TwitterIcon() {
 
 function PinterestIcon() {
   return (
-    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+    <svg
+      className="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M12 2a10 10 0 00-3.6 19.3c-.1-1.5 0-3.4.4-4.9.3-1.3 2.2-8.8 2.2-8.8s-.6-1.2-.6-2.9c0-2.7 1.6-4.7 3.5-4.7 1.7 0 2.5 1.3 2.5 2.8 0 1.7-1.1 4.2-1.6 6.5-.5 2 1 3.6 2.9 3.6 3.5 0 6.2-3.7 6.2-9.1C22 6.8 18.3 3 12.6 3 6.2 3 3 6.7 3 10.8c0 1.2.4 2.5 1 3.2.1.2.1.3.1.5l-.4 1.7c-.1.4-.3.5-.7.3-1.7-.8-2.8-3.2-2.8-5.2 0-4.2 3.1-9.2 9.4-9.2 5 0 8.8 3.6 8.8 8.4 0 5.4-3.4 9.7-8.1 9.7-1.6 0-3.1-.9-3.6-1.9l-1 3.7c-.3 1.3-1.2 2.9-1.8 3.9A10 10 0 1012 2z" />
     </svg>
   );
@@ -151,13 +186,14 @@ const about = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#013220] text-[#F5F0E8]">
+    <footer className="bg-[rgb(34,29,25)] text-[#e7d9cb]">
       <div className="mx-auto max-w-[1440px] px-4 py-14 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-10">
           <div className="lg:col-span-3">
             <Logo variant="light" />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-[#E8DCC8]">
-              Timeless elegance and exceptional craftsmanship — curated for those who seek the extraordinary.
+              Timeless elegance and exceptional craftsmanship — curated for
+              those who seek the extraordinary.
             </p>
             <p className="mt-6 text-sm">
               <span className="block">Contact Us: 214-699-9717</span>
@@ -243,7 +279,11 @@ export default function Footer() {
                 placeholder="Email address"
                 className="min-w-0 flex-1 bg-transparent text-sm text-[#F5F0E8] placeholder:text-[#E8DCC8]/50 outline-none"
               />
-              <button type="submit" aria-label="Subscribe" className="text-[#D4AF37] hover:text-white">
+              <button
+                type="submit"
+                aria-label="Subscribe"
+                className="text-[#D4AF37] hover:text-white"
+              >
                 <ArrowRightCircleIcon className="h-7 w-7" />
               </button>
             </form>
@@ -264,7 +304,11 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-white/15 pt-8 sm:flex-row sm:items-center">
           <p className="text-xs text-[#E8DCC8]/80">© 2026, GS Jewellers</p>
-          <button type="button" aria-label="Help" className="text-[#E8DCC8] hover:text-white">
+          <button
+            type="button"
+            aria-label="Help"
+            className="text-[#E8DCC8] hover:text-white"
+          >
             <QuestionMarkCircleIcon className="h-6 w-6" />
           </button>
         </div>

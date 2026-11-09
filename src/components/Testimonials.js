@@ -57,7 +57,6 @@ export default function TestimonialSection() {
   return (
     <section className="bg-[#f8f6f3] py-24">
       <div className="mx-auto max-w-[1300px] px-6 lg:px-8">
-
         {/* CENTERED HEADING */}
         <h2 className="mb-16 text-center font-serif-heading text-[clamp(2.2rem,3vw,3.2rem)] tracking-[0.08em] text-[#013220]">
           TESTIMONIALS
@@ -65,10 +64,8 @@ export default function TestimonialSection() {
 
         {/* CONTENT */}
         <div className="grid items-center gap-16 lg:grid-cols-2">
-
           {/* LEFT SIDE */}
           <div className="text-center">
-
             <h3 className="font-serif-heading text-[clamp(1.8rem,2vw,2.4rem)] text-[#013220]/75">
               "{testimonial.title}"
             </h3>
@@ -96,7 +93,6 @@ export default function TestimonialSection() {
                 />
               ))}
             </div>
-
           </div>
 
           {/* RIGHT SIDE IMAGE */}
@@ -112,9 +108,7 @@ export default function TestimonialSection() {
               />
             </div>
           </div>
-
         </div>
-
       </div>
     </section>
   );
