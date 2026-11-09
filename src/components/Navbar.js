@@ -66,14 +66,14 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#fffcf8] border-b border-[#E7D9CB]/80">
+    <header className="sticky top-0 z-50 -mb-[132px]bg-gradient-to-b from-black/60 via-black/30 to-transparent backdrop-blur-md">
       <div className="relative mx-auto flex h-[88px] max-w-[1440px] items-center justify-between gap-4 px-4 lg:px-8">
         <div className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0">
           <Logo />
         </div>
         <button
           type="button"
-          className="rounded p-2 text-[#3B3029] lg:hidden"
+          className="rounded p-2 text-white lg:hidden"
           aria-label="Open menu"
           onClick={() => setMobileOpen((o) => !o)}
         >
@@ -84,7 +84,7 @@ export default function Navbar() {
           )}
         </button>
 
-        <nav className="font-serif-heading uppercase tracking-[0.25em] text-[16px] text-[#3B3029] hidden flex-1 items-center justify-center gap-10 lg:flex">
+        <nav className="font-serif-heading uppercase tracking-[0.25em] text-[16px] text-white hidden flex-1 items-center justify-center gap-10 lg:flex">
           {" "}
           {MAIN_LINKS.map((item) => (
             <div key={item.label} className="group relative">
@@ -119,7 +119,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-4 text-[#3B3029] lg:flex">
+        <div className="hidden items-center gap-4 text-white lg:flex">
           <button
             type="button"
             aria-label="Search"
@@ -152,8 +152,8 @@ export default function Navbar() {
       </div>
 
       {mobileOpen ? (
-        <div className="border-t border-[#E6DCD4] bg-white px-4 py-4 lg:hidden">
-          <nav className="flex flex-col gap-3 text-[15px] font-medium text-[#013220]">
+        <div className="border-t border-white/10 bg-black/80 backdrop-blur-md px-4 py-4 lg:hidden">
+          <nav className="flex flex-col gap-3 text-[15px] font-medium text-white">
             {MAIN_LINKS.map((item) => (
               <div key={item.label}>
                 {/* Main item */}
@@ -168,7 +168,7 @@ export default function Navbar() {
                       <a
                         key={sub.name}
                         href={sub.href}
-                        className="text-[14px] text-[#013220]/80"
+                        className="text-[14px] text-white/80"
                       >
                         {sub.name}
                       </a>

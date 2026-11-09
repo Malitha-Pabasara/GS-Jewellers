@@ -1,7 +1,7 @@
 export default function ShippingBar() {
   return (
-    <div className="border-b border-[#E6DCD4]/80 bg-white">
-      <div className="bg-[#3B3029] text-white py-2.5 px-4 text-center">
+    <div>
+      <div className="bg-[rgb(69,60,54)] text-[#e7d9cb] py-1.5 px-4 text-center">
         <a
           href="/shipping"
           className="group text-[12px] font-luxury tracking-[0.15em] flex items-center justify-center gap-1.5"

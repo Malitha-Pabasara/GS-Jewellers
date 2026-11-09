@@ -80,7 +80,7 @@ export default function CategoryCarousel() {
         <div className="absolute left-2 inset-y-0 flex items-center z-10 lg:left-4">
           <button
             onClick={() => scrollByAmount(-1)}
-            className="rounded-full border border-[#013220] bg-white/90 p-2 text-[#3B3029] shadow hover:bg-white"
+            className="rounded-full border border-[#013220] bg-[#faf5ee]/90 p-2 text-[#3B3029] shadow hover:bg-[#fff4e4]"
           >
             <ChevronLeftIcon className="h-5 w-5" />
           </button>
@@ -90,7 +90,7 @@ export default function CategoryCarousel() {
         <div className="absolute right-2 inset-y-0 flex items-center z-10 lg:right-4">
           <button
             onClick={() => scrollByAmount(1)}
-            className="rounded-full border border-[#3B3029] bg-white/90 p-2 text-[#3B3029] shadow hover:bg-white"
+            className="rounded-full border border-[#3B3029] bg-[#faf5ee]/90 p-2 text-[#3B3029] shadow hover:bg-[#fff4e4]"
           >
             <ChevronRightIcon className="h-5 w-5" />
           </button>

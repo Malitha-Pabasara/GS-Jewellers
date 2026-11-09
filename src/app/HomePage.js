@@ -6,21 +6,28 @@ import ShippingBar from "@/components/ShippingBar";
 import CustomDesignSection from "@/components/CustomDesignSection";
 import CustomDesignSection2 from "@/components/CustomDesignSection2";
 import TestimonialSection from "@/components/Testimonials";
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#cdbbaa]">
+      {/* Shipping bar - Not sticky */}
       <ShippingBar />
-      <Navbar />
-      
+
+      {/* Sticky Navbar */}
+      <div className="sticky top-0 z-[100] -mb-[88px]">
+        <Navbar />
+      </div>
+
+      {/* Hero Section */}
+      <HeroSection />
+
       <main>
-        <HeroSection />
-         <CategoryCarousel />
-        <CustomDesignSection/>
-        <CustomDesignSection2/>
-        
-        <TestimonialSection/>
-       
+        <CategoryCarousel />
+        <CustomDesignSection />
+        <CustomDesignSection2 />
+        <TestimonialSection />
       </main>
+
       <Footer />
     </div>
   );
