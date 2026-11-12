@@ -97,6 +97,7 @@ export default function Home() {
       {/* Hero Section */}
       <HeroSection />
 
+      {/* Main  Section */}
       <main>
         <div style={{ width: "100%", height: "560px", position: "relative" }}>
           <CircularCarousel
