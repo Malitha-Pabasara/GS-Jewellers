@@ -98,8 +98,6 @@ export default function Home() {
       <HeroSection />
 
       <main>
-        <CategoryCarousel />
-        <CustomDesignSection />
         <div style={{ width: "100%", height: "560px", position: "relative" }}>
           <CircularCarousel
             items={items}
@@ -129,6 +127,9 @@ export default function Home() {
             cornerRadius={12}
           />
         </div>
+        <CategoryCarousel />
+        <CustomDesignSection />
+
         <CustomDesignSection2 />
         <TestimonialSection />
       </main>
